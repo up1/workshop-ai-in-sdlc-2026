@@ -39,7 +39,8 @@ The login page will be designed to be simple and user-friendly. It will include 
 | TC003        | Empty Password | 1. Enter valid username="user1" and leave password field empty<br>2. Click "Login" button | Error message "Please enter your password" is displayed |
 | TC004        | Invalid Credentials | 1. Enter invalid username="user1" and password="wrongpassword"<br>2. Click "Login" button | Error message "Username or password is incorrect" is displayed | 
 
-## Database Schema for login feature
+## Database Schema for login feature 
+* Database file of sqlite is located at `demo.db` in the root directory of the project.
 
 Table: users
 | Column Name | Data Type | Description |
