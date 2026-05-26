@@ -36,13 +36,14 @@ You are an engineering agent. Your task is to implement and testing features bas
       - models/
       - routes/
       - views/
-  - utils/
+  - database/db.js
   - app.js
 - tests/
   - feature1.success.spec.js
   - feature2.failure.spec.js
   - feature2.success.spec.js
   - feature2.failure.spec.js
+  - test-utils.js
 - package.json
 - README.md
 

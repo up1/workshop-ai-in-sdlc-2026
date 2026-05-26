@@ -38,3 +38,14 @@ The login page will be designed to be simple and user-friendly. It will include 
 | TC002        | Empty Username | 1. Leave username field empty and enter valid password="password123"<br>2. Click "Login" button | Error message "Please enter your username" is displayed |
 | TC003        | Empty Password | 1. Enter valid username="user1" and leave password field empty<br>2. Click "Login" button | Error message "Please enter your password" is displayed |
 | TC004        | Invalid Credentials | 1. Enter invalid username="user1" and password="wrongpassword"<br>2. Click "Login" button | Error message "Username or password is incorrect" is displayed | 
+
+## Database Schema for login feature
+
+Table: users
+| Column Name | Data Type | Description |
+|-------------|-----------|-------------|
+| id          | INTEGER   | Primary key, auto-incremented user ID |
+| username    | TEXT      | Unique username for the user |
+| password    | TEXT      | Hashed password for the user |
+| created_at  | DATETIME  | Timestamp of when the user was created |
+| updated_at  | DATETIME  | Timestamp of when the user was last updated |
