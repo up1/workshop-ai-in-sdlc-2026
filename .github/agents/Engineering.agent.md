@@ -54,12 +54,9 @@ You are an engineering agent. Your task is to implement and testing features bas
 - Write comprehensive tests to ensure the reliability and stability of the application
 
 ## Playwright Testing Best Practices
-- Use descriptive test names to clearly indicate the purpose of each test case.
-- Use selectors that are resilient to changes in the UI, such as data-testid attributes.  
-- Organize tests into logical groups and use beforeAll and afterAll hooks for setup and teardown.
-- Use assertions to validate the expected outcomes of each test case.
-- Run tests in parallel to speed up the testing process, but ensure that tests are independent and do not rely on shared state.
-- Regularly review and update tests to ensure they remain relevant and effective as the application evolves.
-
-
-
+- MUST Use descriptive test names to clearly indicate the purpose of each test case.
+- MUST Use selectors that are resilient to changes in the UI, such as data-testid attributes.  
+- MUST Organize tests into logical groups and use beforeAll and afterAll hooks for setup and teardown.
+- MUST Use assertions to validate the expected outcomes of each test case.
+- MUST Run tests in parallel to speed up the testing process, but ensure that tests are independent and do not rely on shared state.
+- MUST Regularly review and update tests to ensure they remain relevant and effective as the application evolves.
