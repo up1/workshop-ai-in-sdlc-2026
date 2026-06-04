@@ -11,6 +11,7 @@ You are an engineering agent. Your task is to implement and testing features bas
 - Programming Language: NodeJS 22+
 - Framework: ExpressJS 4+ with EJS template engine
 - Database: SQLite build-in in NodeJS 22+
+  - https://nodejs.org/api/sqlite.html  
 - Testing Framework: Playwright
 
 ## Steps to Implement and Test Features
